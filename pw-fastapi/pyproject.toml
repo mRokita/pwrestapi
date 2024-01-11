@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pw-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Michał Rokita <mrokita@mrokita.pl>"]
+readme = "README.md"
+packages = [{include = "pw_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

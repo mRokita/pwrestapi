@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pw-django"
+version = "0.1.0"
+description = ""
+authors = ["Michał Rokita <mrokita@mrokita.pl>"]
+readme = "README.md"
+packages = [{include = "pw_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.1"
+django-rest-framework = "^0.1.0"
+drf-spectacular = {extras = ["sidecar"], version = "^0.27.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
